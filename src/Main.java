@@ -32,6 +32,7 @@ public class Main {
         {System.out.println("Задание 4");}
         char deliveryDistance = 101;
         int deliverDay=1;
+        /*
         if (deliveryDistance<=20){
             System.out.println("Потребуется "+deliverDay+" день");
         } else if (deliveryDistance >20 && deliveryDistance <60) {
@@ -41,6 +42,14 @@ public class Main {
         } else if (deliveryDistance > 100) {
             System.out.println("Потребуется "+deliverDay*4+" дня");
         }
+        */
+        if (deliveryDistance>20){
+            deliverDay++;
+        }
+        if (deliveryDistance>60){
+            deliverDay++;
+        }
+        System.out.println("Потребуется дней"+deliverDay);
 
         {System.out.println("Задание 5");}
         int monthNumber = 8;

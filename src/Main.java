@@ -81,5 +81,38 @@ public class Main {
             default:
                 System.out.println("Упс, такого месяца на нашей планете нет!");
         }
+
+        /*
+        {System.out.println("Задание 6");}
+        int age=19;
+        int salary=58_000;
+        switch (salary){
+        case 1:
+            age>=23
+            System.out.println("Мы готовы выдать вам кредитную карту с лимитом "+salary*3);
+
+
+        if (age>=23){
+            System.out.println("Мы готовы выдать вам кредитную карту с лимитом "+salary*3);
+        }else if (salary>=50_000){
+            System.out.println("Мы готовы выдать вам кредитную карту с лимитом "+salary*1.2);
+        }
+        if (age<23) {
+            System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + salary * 2);
+        } else if (salary < 50_000) {
+            System.out.println("Мы не готовы выдать вам кредитную карту ");
+        }
+        if (salary>=80_000) {
+            System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + salary * 1.5);
+        }
+        */
+
+
+            //System.out.println("Мы готовы выдать вам кредитную карту с лимитом "+ salary*3*1.2);
+        //} else if (age<23 && salary<50_000) {
+        //    System.out.println("Мы готовы выдать вам кредитную карту с лимитом "+salary*2);
+        //}
+        //boolean laepYear=((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+
     }
 }
